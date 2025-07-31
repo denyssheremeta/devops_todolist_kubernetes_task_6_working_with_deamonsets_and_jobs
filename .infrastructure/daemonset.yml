@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: busybox-daemon
-  namespace: mateapp
+  namespace: todoapp
   labels:
     app: busybox
 spec:
